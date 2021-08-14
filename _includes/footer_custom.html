@@ -1,5 +1,6 @@
 {%- if site.footer_content -%}
   <p class="text-small text-grey-dk-100 mb-0">{{ site.footer_content }}</p>
+  <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
   {% if site.search_enabled != false %}
   <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
   {% endif %}
